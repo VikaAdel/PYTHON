@@ -60,7 +60,8 @@ def add_contact():
 
 
 def print_contacts():
-    pass
+    with open("phonebook.txt", 'r', encoding='UTF-8') as file:
+        print(file.read())
 
 def search_contacts():
     pass
